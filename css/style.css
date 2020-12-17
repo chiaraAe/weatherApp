@@ -1,0 +1,39 @@
+/* TODO: Put your CSS code in here */
+.header {
+  display: flex;
+}
+
+.container {
+  display: block;
+  justify-content: center;
+  margin-top: 24px;
+  margin-bottom: 24px;
+  border: 1px;
+  border-color: grey;
+  border-style: solid;
+}
+
+.text {
+  padding-top: 24px;
+  padding-bottom: 24px;
+}
+
+img {
+  height: 50;
+  width: 50px;
+  /* background-color: grey; */
+}
+
+#weather {
+  display: flex;
+  margin-bottom: 40px;
+}
+
+#icon {
+  margin-right: 15px; 
+}
+
+form {
+  margin-top: 24px;
+  margin-bottom: 24px;
+}

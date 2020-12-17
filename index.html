@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <title>Weather</title>
+    <link rel="shortcut icon" href="data:image/x-icon;" type="image/x-icon">
+
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css">
+  </head>
+  <body>
+    <div class="container">
+      <form class="d-flex align-items-center">
+        <!-- <input type="text" id="city-input" placeholder="Enter city"> -->
+        <input class="form-control" type="text" id="city-input" placeholder="Enter city"> 
+        <input type="submit" value="Get the weather" class="btn btn-primary ml-3">
+      </form>
+      
+    </div>
+    <!-- TODO: Put your HTML code in here -->
+    <div class="container">
+      <div class="text">
+        <h1 id="city"></h1>
+        <h2 id="date"></h2>
+        <h4 id="sky"></h4>
+      </div>
+
+      <div id="weather">
+        <img src="" alt="" id="icon">
+        <h2 id="temp"></h2>
+      </div>
+    </div>
+
+    <script src="main.js"></script>
+  </body>
+</html>
